@@ -36,7 +36,7 @@ import (
 
 // EventHandler is a function that can handle events from WhatsApp.
 type EventHandler func(evt interface{})
-type nodeHandler func(node *waBinary.Node)
+type nodeHandler34 func(node *waBinary.Node)
 
 var nextHandlerID uint32
 
